@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		036C228E26C1E0C90028FF72 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 036C228D26C1E0C90028FF72 /* main.cpp */; };
+		03ECCAA826C6E17100077E01 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03ECCA9E26C6E16E00077E01 /* main.cpp */; };
+		03ECCAA926C6E17100077E01 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 03ECCAA226C6E16F00077E01 /* Makefile */; };
+		03ECCAAA26C6E17100077E01 /* ImageTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03ECCAA626C6E17100077E01 /* ImageTransform.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		036C228A26C1E0C90028FF72 /* Image_Transform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Image_Transform; sourceTree = BUILT_PRODUCTS_DIR; };
-		036C228D26C1E0C90028FF72 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		03ECCA9D26C6E15E00077E01 /* Image_Transform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Image_Transform; path = "/Volumes/Extra Storage/Dropbox/Xcode Programming/Image_Transform/build/Debug/Image_Transform"; sourceTree = "<absolute>"; };
+		03ECCA9E26C6E16E00077E01 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		03ECCA9F26C6E16F00077E01 /* test */ = {isa = PBXFileReference; lastKnownFileType = file; path = test; sourceTree = "<group>"; };
+		03ECCAA026C6E16F00077E01 /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		03ECCAA126C6E16F00077E01 /* ImageTransform */ = {isa = PBXFileReference; lastKnownFileType = file; path = ImageTransform; sourceTree = "<group>"; };
+		03ECCAA226C6E16F00077E01 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		03ECCAA326C6E17000077E01 /* alma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alma.png; sourceTree = "<group>"; };
+		03ECCAA426C6E17000077E01 /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay.png; sourceTree = "<group>"; };
+		03ECCAA526C6E17000077E01 /* uiuc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = uiuc; sourceTree = "<group>"; };
+		03ECCAA626C6E17100077E01 /* ImageTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageTransform.cpp; sourceTree = "<group>"; };
+		03ECCAA726C6E17100077E01 /* ImageTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransform.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,25 +52,17 @@
 		036C228126C1E0C90028FF72 = {
 			isa = PBXGroup;
 			children = (
-				036C228C26C1E0C90028FF72 /* Image_Transform */,
-				036C228B26C1E0C90028FF72 /* Products */,
+				03ECCAA326C6E17000077E01 /* alma.png */,
+				03ECCAA126C6E16F00077E01 /* ImageTransform */,
+				03ECCAA626C6E17100077E01 /* ImageTransform.cpp */,
+				03ECCAA726C6E17100077E01 /* ImageTransform.h */,
+				03ECCA9E26C6E16E00077E01 /* main.cpp */,
+				03ECCAA226C6E16F00077E01 /* Makefile */,
+				03ECCAA426C6E17000077E01 /* overlay.png */,
+				03ECCA9F26C6E16F00077E01 /* test */,
+				03ECCAA026C6E16F00077E01 /* tests */,
+				03ECCAA526C6E17000077E01 /* uiuc */,
 			);
-			sourceTree = "<group>";
-		};
-		036C228B26C1E0C90028FF72 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				036C228A26C1E0C90028FF72 /* Image_Transform */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		036C228C26C1E0C90028FF72 /* Image_Transform */ = {
-			isa = PBXGroup;
-			children = (
-				036C228D26C1E0C90028FF72 /* main.cpp */,
-			);
-			path = Image_Transform;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,7 +82,7 @@
 			);
 			name = Image_Transform;
 			productName = Image_Transform;
-			productReference = 036C228A26C1E0C90028FF72 /* Image_Transform */;
+			productReference = 03ECCA9D26C6E15E00077E01 /* Image_Transform */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +107,7 @@
 				Base,
 			);
 			mainGroup = 036C228126C1E0C90028FF72;
-			productRefGroup = 036C228B26C1E0C90028FF72 /* Products */;
+			productRefGroup = 036C228126C1E0C90028FF72;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -118,7 +121,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				036C228E26C1E0C90028FF72 /* main.cpp in Sources */,
+				03ECCAAA26C6E17100077E01 /* ImageTransform.cpp in Sources */,
+				03ECCAA926C6E17100077E01 /* Makefile in Sources */,
+				03ECCAA826C6E17100077E01 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
